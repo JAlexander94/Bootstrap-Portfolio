@@ -1,0 +1,85 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+}
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #31343D !important;
+    background-size: cover;
+    z-index: 10;
+    padding-left: 0 !important;
+    height:11vh;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand {
+    background-color: #92CCCD;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+    background-color: #92CCCD;
+    border: none !important;
+    font-family: Helvetica, sans-serif;
+  }
+
+/* Jumbotron  */
+.photobackground {
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    background-color: #759CB7;
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    height: calc(40vh - 25px);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+  
+  /* Jumbotron copy */
+.jumboCopy {
+    margin-top: 11vh;
+    width: 100%;
+    min-width: 500px;
+    color: white;
+    text-align: right;
+}
+.jumboCopy h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: #92CCCD;
+  margin-top: 10px;
+  text-align: right !important;
+}
+.jumboCopy a {
+  background-color: #92CCCD;
+  border: none !important;
+  font-family: Helvetica, sans-serif;
+}
