@@ -87,3 +87,39 @@ p {
   border: none !important;
   font-family: Helvetica, sans-serif;
 }
+
+ /* Project work cards */
+ .cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}
+.content img{
+  max-height: 250px;
+}
+
+
+/* Styles for the cards*/
+.content{padding: 50px;}
+.sectionHeading{text-align: center;}
+.projects1,.projects2,.projects3,.about1{padding: 0px 30px 30px 30px;}
+.cardContainer{text-align: center;}
+
+/* Text */
+.aboutpara{
+  text-align: left;
+}
+
+.titles{
+  border-right: 3px solid #445876;
+  color: #445876;
+}
+
+.contact1{
+  display:flex;
+  align-items: center;
+}
+.contactItem h3{
+  font-size: 15px;
+}
