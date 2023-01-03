@@ -87,6 +87,12 @@ p {
   border: none !important;
   font-family: Helvetica, sans-serif;
 }
+.profilepic{
+  position: absolute;
+  top:13vh;
+  left:7vh;
+  height: 21vh;
+}
 
  /* Project work cards */
  .cardContainer {
@@ -94,16 +100,26 @@ p {
 }
 .card {
   margin: 0 auto;
+  border: 3px solid #92CCCD;
+}
+.cardtext{
+  margin-top: 110px;
+  margin-right: 40%;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: #92CCCD;
+  
 }
 .content img{
-  max-height: 250px;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 
 /* Styles for the cards*/
 .content{padding: 50px;}
 .sectionHeading{text-align: center;}
-.projects1,.projects2,.projects3,.about1{padding: 0px 30px 30px 30px;}
+.projects1,.projects2,.projects3,.about1,.contact1,.skills1,.skills2,.skills3{padding: 0px 30px 30px 30px;}
 .cardContainer{text-align: center;}
 
 /* Text */
@@ -115,11 +131,24 @@ p {
   border-right: 3px solid #445876;
   color: #445876;
 }
+ /* Footer*/
 
-.contact1{
+.contact1, .skills1, .skills2, .skills3{
   display:flex;
   align-items: center;
+  text-align: center;
 }
-.contactItem h3{
+.contactItem a{
   font-size: 15px;
+  color: #445876 !important;
+  border-bottom: 3px solid #445876;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
+}
+
+.contactItem:focus, .contactItem:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
 }
